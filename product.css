@@ -1,0 +1,107 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9; 
+  font-family: 'Poppins', sans-serif; 
+}
+header {
+  background-color: #0d6efd; 
+  color: #fff;
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 10px 10px;
+}
+
+.menu a {
+  margin-left: 20px;
+ color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+.menu a:hover {
+  color: #5c0073; 
+}
+.all {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+}
+.card {
+  background-color: #f1f0f0;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+   transform: translateY(-5px); 
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit:cover;
+  border-radius: 15px 15px 0 0;
+}
+
+
+.product {
+  padding: 20px;
+  text-align: center;
+}
+
+.product h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d6efd; 
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.btn button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+transition: transform 0.5s ease;
+}
+.btn button:hover {
+  background-color: #003566; 
+transform: translateY(-5px);
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+background-color: #e9ecef;
+  color: #555;
+}
